@@ -1,4 +1,4 @@
 # CN_lab
 lab record
-<h1>lab1 is lab2</h1>
-<h1>lab3</h1>
+<h3>lab1 -> lab2</h3>
+<h3>lab3</h3>
