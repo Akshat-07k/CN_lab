@@ -27,18 +27,19 @@ int main()
 
     sock.sin_family = AF_INET;
     sock.sin_port = 1040;
-    sock.sin_addr.s_addr = inet_addr("10.5.77.175");
+    sock.sin_addr.s_addr = inet_addr("10.0.2.15");
 
     int bindInt = bind(cid, (struct sockaddr *)&sock, sizeof(sock));
     if (bindInt == -1)
     {
         printf(" -------------Bind Uncessfull--------------\n ");
+        return 0;
     }
 
     struct sockaddr_in to;
     to.sin_family = AF_INET;
     to.sin_port = 1030;
-    to.sin_addr.s_addr = inet_addr("10.5.77.175");
+    to.sin_addr.s_addr = inet_addr("10.0.2.15");
 
     char send[100] = {"abcd"};
     // scanf(" %s",&send);
@@ -51,6 +52,6 @@ int main()
     }
 
     // close(cid);
-    printf(" Khudos Client  is ready ");
+    printf(" Kudos Client  is ready ");
     return 0;
 }
