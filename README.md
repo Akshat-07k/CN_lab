@@ -3,6 +3,7 @@
   <li><h3>Lab1</h3></li>
   <li><h3><a href="https://github.com/Akshat-07k/CN_lab/tree/main/lab2">Lab2</a> </h3></li>
   <li><h3><a href="https://github.com/Akshat-07k/CN_lab/tree/main/lab3">Lab3</a></h3></li>
+  <li><h3><a href="https://github.com/Akshat-07k/CN_lab/tree/main/lab4">Lab4</a></h3></li>
 </ol>
 
 
