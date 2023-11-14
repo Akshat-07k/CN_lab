@@ -39,7 +39,7 @@ int main()
     struct sockaddr_in to;
     to.sin_family = AF_INET;
     to.sin_port = 1030;
-    to.sin_addr.s_addr = inet_addr("10.0.2.15");
+    to.sin_addr.s_addr = inet_addr("127.0.0.1");
 
     char send[100] = {"abcd"};
     // scanf(" %s",&send);

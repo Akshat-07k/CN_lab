@@ -20,7 +20,7 @@ int main()
     struct sockaddr_in sock;
 	sock.sin_family = AF_INET;
 	sock.sin_port = 1030;
-	sock.sin_addr.s_addr = inet_addr("10.0.2.15");
+	sock.sin_addr.s_addr = inet_addr("127.0.0.1");
 	
 	int bindInt = bind(cid, (struct sockaddr *)&sock, sizeof(sock));
 	    if (bindInt == -1)
